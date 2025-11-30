@@ -1,0 +1,14 @@
+body {
+    background-color: blue;
+}
+.start{
+    font-family: 'Arial', 'sans-serif';
+    background-color: aqua;
+    color: rgb(2, 198, 57);
+}
+
+img{
+    border: 5px solid darkblue;
+    width: 200px;
+    border-radius: 50%;
+}
