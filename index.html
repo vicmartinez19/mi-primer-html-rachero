@@ -9,16 +9,53 @@
     <header>
         <h1>Bienvenidos a mi blog</h1>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Contacto</a>
+            <a href="#Inicio">Inicio</a>
+            <a href="#sobre-mi">Acerca de</a>
+            <a href="#contactame">Contacto</a>
         </nav> 
     </header>
     <main id="Inicio">
         <section>
             <h2>Mi nombre es Victor Manuel Martinez De la fuente</h2>
             <p>Soy el <em>alumno</em> mas guapo que tiene <strong>Dev.f</strong></p>
+            <img src="./src/imagenes/Alumno.jpg" alt="Fotografia del alumno Victor Manuel Martinez De la Fuente">
         </section>
     </main>
+    <div id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <p>Me gusta aprender cosas nuevas, soy muy curioso, me gusta escuchar a los demas, apoyo a los demas</p>
+            <br>
+            <p>Mis pasatiempos son</p>
+            <ul>
+                <li>Dormir</li>
+                <li>Estudiar</li>
+                <li>Aprender simpre algo nuevo</li>
+                <li>Salir con mis amigos</li>
+                <li>Tomar fotos</li>
+            </ul>
+
+            <p>Mis redes sociales son:</p>
+            <ol>
+                <li>Instagram: <a href="https://www.instagram.com/i.m_victor_mtz?igsh=MXB0NnNzeW1xN3F3ZA==">I.M_VICTOR_MTZ</a></li>
+                <li>GitHub: <a href="https://github.com/vicmartinez19"></a>vicmartinez19</li>
+                <li>Facebook<a href="https://www.facebook.com/share/1CXLP17Pih/">Victor Manuel Martinez<span>😶‍🌫️</span></a></li>
+            </ol>
+    </div>
+    <div id="contactame">
+    </div>
+        <form action="#" method="post">
+        <h2>contactame</h2>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electronico</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <input type="submit" value="Enviar">
+        
+        </form>
+    <footer>
+        <p>© 2025 Mi blog. Todos los derechos reservado</p>
+    </footer>
     </body>
 </html>
